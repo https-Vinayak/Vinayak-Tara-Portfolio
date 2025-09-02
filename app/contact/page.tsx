@@ -117,7 +117,7 @@ const ContactPage = () => {
               transition={{ duration: 0.8 }}
               className="text-5xl lg:text-7xl font-bold mb-6"
             >
-              Let's <span className="text-gradient-animated">Connect</span>
+              Let&apos;s <span className="text-gradient-animated">Connect</span>
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -125,7 +125,7 @@ const ContactPage = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-xl text-gray-300 max-w-3xl mx-auto mb-12"
             >
-              Ready to bring your ideas to life? I'd love to hear about your project and 
+              Ready to bring your ideas to life? I&apos;d love to hear about your project and 
               discuss how we can work together to create something amazing.
             </motion.p>
           </div>
@@ -155,7 +155,7 @@ const ContactPage = () => {
                         </svg>
                       </div>
                       <h3 className="text-2xl font-bold text-green-400 mb-2">Message Sent!</h3>
-                      <p className="text-gray-300">Thanks for reaching out. I'll get back to you within 24 hours.</p>
+                      <p className="text-gray-300">Thanks for reaching out. I&apos;ll get back to you within 24 hours.</p>
                     </motion.div>
                   ) : (
                     <form onSubmit={handleSubmit} className="space-y-6">
@@ -246,7 +246,7 @@ const ContactPage = () => {
                             <option value="5k-15k">$5,000 - $15,000</option>
                             <option value="15k-30k">$15,000 - $30,000</option>
                             <option value="30k-plus">$30,000+</option>
-                            <option value="discuss">Let's Discuss</option>
+                            <option value="discuss">Let&apos;s Discuss</option>
                           </select>
                         </div>
                         <div>
@@ -367,7 +367,7 @@ const ContactPage = () => {
                       <span className="font-medium">Currently Available</span>
                     </div>
                     <p className="text-gray-300 text-sm">
-                      I'm currently accepting new projects for Q2 2024. Average response time: 2-4 hours.
+                      I&apos;m currently accepting new projects for Q2 2024. Average response time: 2-4 hours.
                     </p>
                   </div>
                 </div>
@@ -421,7 +421,7 @@ const ContactPage = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-gray-300 mb-8"
             >
-              Book a free 30-minute consultation to discuss your project and see if we're a good fit.
+              Book a free 30-minute consultation to discuss your project and see if we&apos;re a good fit.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}

@@ -252,7 +252,7 @@ const BlogPage = () => {
               className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
             >
               <AnimatePresence mode="wait">
-                {filteredPosts.map((post, index) => (
+                {filteredPosts.map((post) => (
                   <motion.article
                     key={post.id}
                     layout

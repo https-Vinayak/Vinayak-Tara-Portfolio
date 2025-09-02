@@ -244,7 +244,7 @@ const ProjectsPage = () => {
               className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
             >
               <AnimatePresence mode="wait">
-                {filteredProjects.map((project, index) => (
+                {filteredProjects.map((project) => (
                   <motion.div
                     key={project.id}
                     layout
@@ -381,7 +381,7 @@ const ProjectsPage = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-xl text-gray-300 mb-8"
             >
-              Let's discuss how I can help bring your ideas to life with modern web technologies.
+              Let&apos;s discuss how I can help bring your ideas to life with modern web technologies.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}

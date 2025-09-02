@@ -109,7 +109,7 @@ const AboutPage = () => {
                   <span className="text-gradient-animated">About Me</span>
                 </h1>
                 <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                  I'm a passionate full-stack developer with over 4 years of experience creating 
+                  I&apos;m a passionate full-stack developer with over 4 years of experience creating 
                   digital solutions that make a difference. I love turning complex problems into 
                   simple, beautiful, and intuitive designs.
                 </p>
@@ -118,7 +118,7 @@ const AboutPage = () => {
                     href="/contact"
                     className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 rounded-xl font-medium transition-all duration-200 shadow-lg hover:shadow-glow text-center"
                   >
-                    Let's Work Together
+                    Let&apos;s Work Together
                   </Link>
                   <Link
                     href="/resume.pdf"
@@ -174,13 +174,13 @@ const AboutPage = () => {
                 the power of creating digital experiences that could reach and impact people worldwide.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                Over the years, I've had the privilege of working with startups, agencies, and enterprises, 
+                Over the years, I&apos;ve had the privilege of working with startups, agencies, and enterprises, 
                 each experience teaching me something new about the craft of development. I specialize in 
                 creating full-stack applications using modern technologies like React, Next.js, and Node.js, 
                 always with a focus on performance, accessibility, and user experience.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed">
-                When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
+                When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing to open-source 
                 projects, or sharing knowledge through blog posts and community discussions. I believe in 
                 the power of continuous learning and the importance of giving back to the developer community.
               </p>
@@ -326,7 +326,7 @@ const AboutPage = () => {
               transition={{ duration: 0.6 }}
               className="text-4xl font-bold mb-8"
             >
-              Let's Create Something Amazing Together
+              Let&apos;s Create Something Amazing Together
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -335,7 +335,7 @@ const AboutPage = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-xl text-gray-300 mb-8"
             >
-              I'm always excited to work on new projects and collaborate with talented individuals.
+              I&apos;m always excited to work on new projects and collaborate with talented individuals.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}

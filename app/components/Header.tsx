@@ -32,7 +32,7 @@ export const Header = () => {
       x: "100%",
       transition: {
         duration: 0.3,
-        ease: "easeInOut"
+        ease: [0.4, 0.0, 0.2, 1.0] as const
       }
     },
     open: {
@@ -40,7 +40,7 @@ export const Header = () => {
       x: "0%",
       transition: {
         duration: 0.3,
-        ease: "easeInOut"
+        ease: [0.4, 0.0, 0.2, 1.0] as const
       }
     }
   };
@@ -113,7 +113,7 @@ export const Header = () => {
                 href="/contact"
                 className="relative inline-flex items-center px-6 py-2.5 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-medium rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl hover:shadow-blue-500/25 group"
               >
-                <span>Let's Talk</span>
+                <span>Let&apos;s Talk</span>
                 <motion.svg 
                   className="w-4 h-4 ml-2"
                   fill="none" 
@@ -218,7 +218,7 @@ export const Header = () => {
                     onClick={() => setIsMenuOpen(false)}
                     className="block w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-medium text-center rounded-xl transition-all duration-200 shadow-lg"
                   >
-                    Let's Work Together
+                    Let&apos;s Work Together
                   </Link>
                   
                   {/* Social Links */}

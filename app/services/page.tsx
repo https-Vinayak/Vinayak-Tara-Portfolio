@@ -326,7 +326,7 @@ const ServicesPage = () => {
                       </svg>
                     ))}
                   </div>
-                  <p className="text-gray-300 mb-6 leading-relaxed italic">"{testimonial.content}"</p>
+                  <p className="text-gray-300 mb-6 leading-relaxed italic">&ldquo;{testimonial.content}&rdquo;</p>
                   <div>
                     <div className="font-semibold">{testimonial.name}</div>
                     <div className="text-gray-400 text-sm">{testimonial.role}</div>
@@ -403,7 +403,7 @@ const ServicesPage = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-xl text-gray-300 mb-8"
             >
-              Let's discuss your project requirements and how I can help you achieve your goals.
+              Let&apos;s discuss your project requirements and how I can help you achieve your goals.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
